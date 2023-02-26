@@ -24,9 +24,6 @@ const config: GatsbyConfig = {
       // See the theme's README for all available options
       options: {},
     },
-    (module.exports = {
-      plugins: ["gatsby-plugin-netlify"],
-    }),
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
